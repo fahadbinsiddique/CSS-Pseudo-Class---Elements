@@ -1,0 +1,27 @@
+/* [a:hover] it is a pseudo class */
+/* a:hover{
+    color: red;
+    background-color: black
+} */
+h2:nth-child(2){
+    color: red;
+}
+h2:nth-child(3){
+    color: blue;
+}
+h2:first-child{
+    color: yellowgreen;
+}
+ 
+p::first-letter{
+    color: tomato;
+    font-size: 60px;
+}
+p::first-line{
+    color: yellowgreen;
+}
+
+h4::before{
+    content: url(R.png);
+    
+}
